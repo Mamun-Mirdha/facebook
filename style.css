@@ -1,0 +1,586 @@
+/***********************************
+!     DEFAULT CSS START HERE       !
+***********************************/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+textarea:focus,
+input:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+::placeholder {
+    color: #A5A9AD;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #A5A9AD;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #A5A9AD;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(102, 0, 219);
+  }
+
+
+  .header-icon-area a {
+    position: relative;
+  }
+  
+  .header-icon-area a[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    top: 110%;
+    left: 25px;
+    background-color: #E7E9ED;
+    font-size: 15px;
+    color: #242526;
+    border-radius: 8px;
+    padding: 5px 12px;
+    transition: .5s;
+  }
+  .icon-area-right a {
+    position: relative;
+  }
+  
+  .icon-area-right a[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    top: 200%;
+    left: 0;
+    background-color: #E7E9ED;
+    font-size: 15px;
+    color: #242526;
+    border-radius: 8px;
+    padding: 5px 12px;
+    transition: .5s;
+  }
+  .total-images img {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+  .total-images a {
+        padding: 6px 10px;
+        width: 93%;
+        display: block;
+        border-radius: 8px;
+        color: #fff;
+        transition: all .5s;
+    }
+    .total-images a:hover {
+        background-color: #303031;
+    }
+    .total-images i {
+        width: 30px;
+        height: 30px;
+        background: #444546;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 50%;
+    }
+
+   
+    .w-20 {
+        width: 17%;
+        margin-left: 1%;
+    }
+
+
+    hr{
+        margin: 0;
+        opacity: 1 !important;
+        background: #3E4042;
+        width: 100%;
+        margin: 14px 0;
+    }
+/***********************************
+!     DEFAULT CSS END HERE          !
+***********************************/
+/***********************************
+!    	header  AREA START HERE   !
+***********************************/
+
+.header-area {
+    background-color: #242526;
+    color: #e4e6eb;
+    padding: 5px 15px;
+    border-bottom: 1px solid #393A3B;
+}
+.header-area li{
+    display: inline-block;
+}
+.header-area .row{
+    align-items: center;
+}
+.header-area img {
+    width: 68px !important;
+}
+.header-icon-area {
+    margin-left: -80px;
+}
+
+
+
+.header-search input {
+    border: none;
+    background: rgb(58, 59, 60);
+    width: 63%;
+    padding: 8px 14px;
+    border-radius: 22px;
+    color: rgb(228, 230, 235);
+    margin-left: -14px !important;
+}
+
+.header-icon-area ul {
+    margin: 0;
+}
+
+.header-icon-area ul li a {
+    color: #E4E6EB;
+    font-size: 22px;
+    padding: 10px 44px;
+    transition: all .2s;
+    border-radius: 8px;
+}
+.header-icon-area ul li a:hover {
+    background-color: #3A3B3C;
+
+}
+.header-icon-area .active {
+    padding: 10px 44px;
+    color: #2374E1;
+    border-bottom: 5px solid #2374E1;
+    border-radius: 0 !important;
+}
+.header-icon-area ul li a.active:hover{
+    background-color: transparent !important;
+}
+
+.icon-area-right ul {
+    margin: 0;
+    text-align: right;
+    padding-right: 4px;
+}
+.icon-area-right ul li a i {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    background: #3A3B3C;
+    color: #E4E6EB;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 5px;
+}
+.icon-area-right ul li a i:hover{
+    background: #4E4F50;
+}
+.profile-images {
+    display: inline-block;
+}
+.profile-images img {
+    width: 42px !important;
+    height: 42px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.akta-class li {
+    display: block;
+    text-align: left;
+    margin-top: 0;
+}
+/***********************************
+!    	Header  AREA END HERE   !
+***********************************/
+
+.facebook-left-side {
+    width: 23%;
+    height: 100vh;
+    overflow: auto;
+    top: 9%;
+    position: sticky;
+    z-index: 5;
+}
+.facebook-meddle-side {
+    width: 54%;
+    padding-left: 4.5% !important;
+}
+.facebook-right-side{
+    width: 23%;
+     height: 100vh;
+    overflow: auto;
+    top: 9%;
+    position: sticky;
+    z-index: 5;
+}
+
+.facebook-full-body{
+    background-color: #18191A;
+}
+
+.left-side {
+    padding: 19px 0 0 7px;
+}
+.left-side ul li a {
+    padding: 6px 10px;
+    width: 93%;
+    display: block;
+    border-radius: 8px;
+    color: #fff;
+    transition: all .5s;
+}
+.left-side ul li a:hover {
+    background-color: #303031;
+}
+
+.left-side ul li a span {
+    margin-left: 6px;
+    font-size: 15px;
+}
+.right-side hr,
+.left-side hr {
+    margin: 0;
+    margin-left: 12px;
+    opacity: 1 !important;
+    background: #3E4042;
+    width: 88%;
+}
+.shortcuts{
+    margin-bottom: 5px;
+}
+.shortcuts h3 span {
+    color: #9C9EA3;
+    font-size: 17px;
+    margin-left: 13px;
+}
+.shortcuts h3 a {
+    font-size: 17px;
+    margin-left: 52px;
+    color: #1158CA;
+    font-weight: 400;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline;
+}
+.shortcuts h3 a:hover{
+    background-color:  #303031;
+}
+.left-side p{
+    color: #9C9EA3;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 7px;
+
+}
+.shortcuts.Contacts a {
+    margin: 0;
+}
+.shortcuts.Contacts span {
+    margin-right: 79px;
+}
+
+.edd-top-banner img {
+    width: 127px;
+    border-radius: 10px;
+    height: 98px;
+}
+
+.about-all-friend.total-images span {
+    margin-left: 12px;
+}
+.about-all-friend.total-images a {
+    margin: 7px 0;
+}.about-all-friend.total-images a {
+    margin: 7px 0;
+}
+
+.shortcuts.right-header span {
+    margin-left: 6px;
+}
+.shortcuts.right-header h3 {
+    margin: 15px 0;
+}
+
+
+
+
+
+
+
+.main-content img {
+    border-radius: 8px 8px 0 0;
+}
+
+
+.storiy-area {
+    margin-top: 24px;
+}
+
+.pic-info {
+    background: #242526;
+    border-radius: 0 0 8px 8px;
+}
+
+.pic-info span i {
+    font-size: 30px;
+    text-align: center;
+    width: 35px;
+    line-height: 36px;
+    height: 35px;
+    border-radius: 50%;
+    background: #242526;
+    z-index: 1;
+    margin-top: -14px;
+}
+.pic-info p {
+    font-size: 15px;
+    color: #fff;
+    padding: 3px 0 10px;
+}
+
+
+
+
+.pro-pic a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    border: 3px solid;
+    margin-left: 11px;
+    z-index: 1;
+}
+
+.pro-banner p {
+    position: absolute;
+    width: 115px;
+    color: #fff;
+    font-size: 13px;
+    top: 40%;
+    margin-left: 9px;
+}
+.pro-banner img {
+    height: 206px;
+    width: 121px;
+    border-radius: 8px;
+    transform: skewY();
+    transition: all .5s;
+}
+.pro-banner img:hover {
+    transform: skewY(5deg);
+}
+
+
+
+
+
+
+
+
+
+
+.user-all-post {
+    background: #242526;
+    margin-right: 62px;
+    border-radius: 8px;
+}
+
+.post-input img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-top: -26px;
+}
+.user-post-area {
+    padding: 10px 52px 10px;
+}
+
+.socail-video-upload a {
+    width: fit-content;
+    display: inline-block;
+}
+
+
+.user-all-post {
+    background: #242526;
+    margin-right: 62px;
+    padding: 10px 17px 0;
+}
+.post-input textarea {
+    width: 90%;
+    height: 40px;
+    padding: 7px 20px;
+    border-radius: 20px;
+    background: #3A3B3C;
+    border: 0;
+    color: #fff;
+    font-size: 17px
+}
+.socail-video-upload.total-images img {
+    width: fit-content;
+    height: auto;
+}
+
+.user-pic.total-images li a {
+    width: fit-content;
+    display: inline-block;
+    padding: 0;
+    margin-left: 4px;
+}
+.user-pic.total-images li {
+    width: fit-content;
+    display: inline-block;
+}
+li.creact-room {
+    border: 1px solid #263951;
+    padding: 5px 10px;
+   
+    border-radius: 20px;
+}
+li.creact-room:hover{
+    background-color: #303031;
+}
+.all-active-friens {
+    background: #242526;
+    margin-right: 62px;
+    padding: 10px 17px 10px;
+    border-radius: 8px;
+}
+.all-active-friens ul{
+    margin: 0;
+    padding: 0;
+}
+
+.user-upload-post{
+    background: #242526;
+    margin-right: 62px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.upload-post-detels .post-edit {
+    margin-left: 241px;
+}
+.upload-post-detels span{
+    color: #D2D4D8;
+    font-size: 20px;
+}
+.upload-post-detels span:hover{
+    text-decoration: underline;
+}
+.upload-post-detels .post-edit {
+    position: absolute;
+    right: 34%;
+    top: 89%;
+    transition: all .5s;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.upload-post-detels .post-edit:hover{
+    background-color: #303031;
+    text-decoration: none;
+}
+.upload-post-detels img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+.post-imagesss img {
+    width: 100%;
+    height: auto;
+    border-radius: inherit;
+}
+.post-content-file p {
+    color: #D2D4D8;
+    font-size: 17px;
+}
+.post-comment,
+.upload-post-detels ul,
+.post-content-file{
+    padding: 10px 17px 0;
+}
+.post-comment .socail-video-upload.total-images ul {
+    margin: 0;
+    padding: 0;
+}
+.post-comment .socail-video-upload.total-images a {
+    padding: 4px 24px;
+}
+.post-comment hr {
+    margin: 0;
+}
+.post-comment .socail-video-upload.total-images i {
+    width: fit-content;
+    height: auto;
+    background: transparent;
+    color: #D2D4D8;
+    font-size: 17px;
+}
+.post-comment  .socail-video-upload.total-images ul {
+    margin: 3px 0;
+    padding: 0;
+}
+.post-comment .socail-video-upload.total-images a {
+    padding: 1px 40px;
+    border-radius: 2px;
+}
+.post-comment .socail-video-upload.total-images span {
+    font-size: 17px;
+    margin-left: 5px;
+}
+.post-comment .socail-video-upload.total-images span:hover{
+    text-decoration: none;
+}
+
+.user-conmment {
+    margin-top: 20px;
+}
+.user-conmment img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: -32px;
+}
